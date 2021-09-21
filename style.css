@@ -1,0 +1,215 @@
+
+body p  span{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+h1 h2 h3 h4 h5 h6 a{
+    ont-family: 'Rubik', sans-serif;
+
+}
+img{
+    max-width: 100%;
+}
+
+
+
+
+ul.primary-menu{
+
+}
+
+ul.primary-menu li{
+
+}
+ul.primary-menu li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #111;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.header-search{
+
+    width: 34px;
+}
+.header-call{
+
+    width: 206px;    
+}
+.header-butt{
+
+    width: 105px;
+}
+.header-call-icon{
+
+}
+.header-call-icon span{
+
+    font-size: 39px;    
+}
+.header-search span{
+
+}
+.header-call-info span{
+
+    margin-left: 22px;
+    margin-top: 14px;
+}
+.header-call-info a{     
+    
+    margin-left: 27px;     
+    margin-top: 2px;
+}
+.header-call-info{
+
+    width: 180px;
+}
+       /* slider -section */
+
+.slider-section{
+    background: url(https://i.postimg.cc/j58TGqRX/main-banner2-2.jpg) no-repeat top center;
+    background-size: cover;
+}
+.slider-content-wrap{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.header-social{
+    position: absolute;
+    left:0 ;
+    bottom: 0;
+}
+
+          /* logo-section */
+.logo-section{
+    border-bottom: 1px solid #ddd;
+}
+ .client-logo{
+
+ }  
+ .client-logo ul{
+  list-style: none;
+  padding-left: 0;
+ }  
+ .client-logo ul li{
+
+ }  
+ 
+     /* about-section */
+  .about-image{
+      position: relative;
+  }
+  .about-img-text{
+   position: absolute;
+   right: 8px;
+   bottom: 2px;
+   background: url(https://i.postimg.cc/sX0djk34/shape.png) no-repeat center;    
+   height: 200px;
+   width: 200px;
+   background-size: contain;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+  }  
+  .about-img-text h2{
+
+  } 
+  .about-img-text p{
+
+  }
+
+
+        /* .....why-choose-us....... */
+   
+  .why-choose-us{
+      background-color: #ddd;
+  }      
+  .features-itme{
+     background-color: #fff;
+     padding: 30px;
+     margin-bottom: 30px;
+     position: relative;
+     overflow: hidden;
+  } 
+  .features-itme::before{
+      content: "";
+      position: absolute;
+      width: 90%;
+      height: 69%;
+      background-color: #fdebeb;     
+      top: -128px;
+      left: 14px;
+     margin: auto;
+
+
+      border-radius: 50%;
+  }
+  
+  .f-icon i {
+    font-size: 35px;
+    margin-bottom: 20px;    
+    color: red;
+    margin-top: 4px;
+    position: relative;
+    height: 90px;
+    width: 90px;
+    background: #ddd;
+    line-height: 90px;
+    border-radius: 50%;
+}
+
+
+.finix-text{
+    position: relative;
+}
+
+
+.paly-animation-btn {
+    width: 69px;
+    height: 69px;
+    background: #fff;
+    display: inline-block;            
+    line-height: 64px;
+    margin: auto;
+    text-align: center;
+    font-size: 49px;
+    color: red;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 73px;
+    left: 287px;
+
+}
+.paly-animation-btn::before{
+    content: "";
+    width: 69px;
+    height: 69px;
+    background: rgb(251, 5, 5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    animation: example 1s ease-out infinite;
+
+}
+
+
+@keyframes example {
+   0%{
+       transform: scale(1) ;
+       opacity: 1;
+   }
+    50%{
+       transform: scale(1.5) ;
+       opacity: .7;
+   }
+   
+    100%{
+       transform: scale(2) ;
+       opacity: 0;
+   }
+}
